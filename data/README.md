@@ -1,1 +1,3 @@
-Data Source
+## Dataset Scope and Potential
+The dataset used in this project spans residential property sales data from the city of Milwaukee, including property features like square footage, number of rooms, and sale prices, as well as livability data extracted from OpenStreetMap. The dataset offers a foundation for analyzing the relationship between property features and their prices, while also incorporating livability factors to improve prediction accuracy.
+In the future, the scope of this dataset can be expanded to include additional cities or regions, which would provide more generalizable insights for property price forecasting across diverse geographic areas.
