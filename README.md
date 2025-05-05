@@ -39,6 +39,8 @@ In the future, the scope of this dataset can be expanded to include additional c
 
 ## Livability Factors
 
+Livability factors refer to measurable elements of the surrounding environment that contribute to how comfortable, convenient, and desirable it is to live in a particular location. In real estate or property price prediction models, livability factors help assess neighborhood quality and accessibility to key amenities, which significantly influence property value.
+
 | Column Name | Description                                                                      |
 | ----------- | -------------------------------------------------------------------------------- |
 | `TspNum`    | Number of transportation infrastructure points nearby (e.g., bus/train stations) |
