@@ -17,12 +17,19 @@ This repository is designed for data scientists, real estate analysts, and decis
 The project is organized into the following folders for easy navigation:
 
 -data/: Contains the raw and cleaned datasets used throughout the project.
+
 -models_py/: Jupyter Notebooks for data preprocessing, model training, and evaluation.
+
 -web-inf/: Contains frontend (HTML + JavaScript + CSS) code for the dashboard.
+
 -HGBR_Pipeline.pkl: Serialized model pipeline exported using joblib.
+
 -Procfile: Configuration file used by deployment platforms (like Railway, Heroku) to run the web server.
+
 -requirements.txt: Required Python libraries.
+
 -README.md: Project overview.
+
 -app.py: Backend logic implemented using FastAPI.
 
 ## Dataset Scope and Potential
