@@ -56,6 +56,13 @@ The project is organized into the following folders for easy navigation:
   - Mean Squared Error (MSE)
 - Findings: XGBoost consistently outperformed other models, achieving the highest R² on test data.
 
+## Dashboard
+The project features an interactive dashboard designed to deliver actionable insights into property pricing trends and livability factors. This dashboard provides dynamic visualizations that help stakeholders make informed decisions.
+Key Features
+-	Geographical Mapping: Interactive maps showing property price trends across the city.
+-	Price Predictions: Forecast future property prices using advanced machine learning models.
+-	Feature Importance: Visual representation of the most important predictors of property price.
+
 ## Future Directions
 🌟 Expanding to More Cities:
 -	Objective: Analyze data from other metropolitan regions to understand how livability factors influence property prices in different urban settings.
