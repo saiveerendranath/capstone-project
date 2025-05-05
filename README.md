@@ -70,13 +70,6 @@ The project is organized into the following folders for easy navigation:
 -	Objective: Use clustering techniques to group properties by location and livability factors.
 -	Why It Matters: Identify areas with similar property values and amenities, supporting targeted real estate investment strategies.
 
-## Dashboard
-The project features an interactive dashboard designed to deliver actionable insights into property pricing trends and livability factors. This dashboard provides dynamic visualizations that help stakeholders make informed decisions.
-Key Features
--	Geographical Mapping: Interactive maps showing property price trends across the city.
--	Price Predictions: Forecast future property prices using advanced machine learning models.
--	Feature Importance: Visual representation of the most important predictors of property price.
-
 ## Acknowledgements
 We extend our gratitude to:
 - Gayathri Galli
