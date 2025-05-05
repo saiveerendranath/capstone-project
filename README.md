@@ -14,23 +14,14 @@ This repository is designed for data scientists, real estate analysts, and decis
 - 📈 Advanced Modeling: Implement machine learning models like Random Forest, XGBoost, and LightGBM.
 
 ## Repository Structure
-The project is organized into the following folders for easy navigation:
 
-01_data/: Contains the raw and cleaned datasets used throughout the project.
-
--models_py/: Jupyter Notebooks for data preprocessing, model training, and evaluation.
-
--web-inf/: Contains frontend (HTML + JavaScript + CSS) code for the dashboard.
-
--HGBR_Pipeline.pkl: Serialized model pipeline exported using joblib.
-
--Procfile: Configuration file used by deployment platforms (like Railway, Heroku) to run the web server.
-
--requirements.txt: Required Python libraries.
-
--README.md: Project overview.
-
--app.py: Backend logic implemented using FastAPI.
+	data/: Raw and cleaned datasets.
+	models_py/: Jupyter Notebooks for model preprocessing, training, and evaluation.
+	web-inf/: Frontend (HTML, JavaScript, CSS) for the dashboard.
+	HGBR_Pipeline.pkl: Serialized model for easy deployment.
+	Procfile: Configuration for deployment platforms like Railway or Heroku.
+	requirements.txt: List of Python libraries needed for the project.
+	app.py: Backend logic for API interactions using FastAPI.
 
 ## Dataset Scope and Potential
 The dataset used in this project spans residential property sales data from the city of Milwaukee, including property features like square footage, number of rooms, and sale prices, as well as livability data extracted from OpenStreetMap. The dataset offers a foundation for analyzing the relationship between property features and their prices, while also incorporating livability factors to improve prediction accuracy.
