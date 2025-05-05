@@ -16,11 +16,17 @@ This repository is designed for data scientists, real estate analysts, and decis
 ## Repository Structure
 
 	data/: Raw and cleaned datasets.
+
 	models_py/: Jupyter Notebooks for model preprocessing, training, and evaluation.
+
 	web-inf/: Frontend (HTML, JavaScript, CSS) for the dashboard.
+
 	HGBR_Pipeline.pkl: Serialized model for easy deployment.
+
 	Procfile: Configuration for deployment platforms like Railway or Heroku.
+
 	requirements.txt: List of Python libraries needed for the project.
+
 	app.py: Backend logic for API interactions using FastAPI.
 
 ## Dataset Scope and Potential
