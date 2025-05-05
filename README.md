@@ -16,22 +16,14 @@ This repository is designed for data scientists, real estate analysts, and decis
 ## Repository Structure
 The project is organized into the following folders for easy navigation:
 
-- data/:
-  Raw and cleaned datasets, including historical property data and livability factors.
-- models_py/:
-  Jupyter Notebooks for data preprocessing, model training, and evaluation.
-- web-inf/:
-  GUI code for Dashboard
-- HGBR_Pipeline.pkl:
-  Reports, presentations, and documentation regarding the project.
-- Procfile:
-  Configuration for deployment
-- requirements.txt:
-  Required Python libraries.
-- README.md:
-  Project overview.
-- app.py:
-- Business Logic for the dashboard
+ data/: Contains the raw and cleaned datasets used throughout the project.
+ models_py/: Jupyter Notebooks for data preprocessing, model training, and evaluation.
+ web-inf/: Contains frontend (HTML + JavaScript + CSS) code for the dashboard.
+ HGBR_Pipeline.pkl: Serialized model pipeline exported using joblib.
+ Procfile: Configuration file used by deployment platforms (like Railway, Heroku) to run the web server.
+ requirements.txt: Required Python libraries.
+ README.md: Project overview.
+ app.py: Backend logic implemented using FastAPI.
 
 ## Dataset Scope and Potential
 The dataset used in this project spans residential property sales data from the city of Milwaukee, including property features like square footage, number of rooms, and sale prices, as well as livability data extracted from OpenStreetMap. The dataset offers a foundation for analyzing the relationship between property features and their prices, while also incorporating livability factors to improve prediction accuracy.
