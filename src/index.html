@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>House Price Predictor</title>
+</head>
+<body>
+  <h1>Predict House Price</h1>
+  <form id="predictForm">
+    <label>Address:</label><br>
+    <input type="text" id="address" required><br><br>
+    
+    <label>Finished Sqft:</label><br>
+    <input type="number" id="sqft" step="any" required><br><br>
+    
+    <label>Bedrooms:</label><br>
+    <input type="number" id="bdrms" required><br><br>
+    
+    <label>Full Bath:</label><br>
+    <input type="number" id="fbath" required><br><br>
+
+    <label>Half Bath:</label><br>
+    <input type="number" id="hbath" required><br><br>
+
+    <label>Stories:</label><br>
+    <input type="number" id="stories" required><br><br>
+
+    <label>Year Built:</label><br>
+    <input type="number" id="year" required><br><br>
+
+    <label>Style:</label><br>
+    <input type="text" id="style" required><br><br>
+
+    <button type="submit">Predict</button>
+  </form>
+
+  <h3 id="result"></h3>
+
+  <script>
+    document.getElementById("predictForm").addEventListener("submit", async function(event) {
+      event.preventDefault();
+
+      const data = {
+        Address: document.getElementById("address").value,
+        FinishedSqft: parseFloat(document.getElementById("sqft").value),
+        Bdrms: parseInt(document.getElementById("bdrms").value),
+        Fbath: parseInt(document.getElementById("fbath").value),
+        Hbath: parseInt(document.getElementById("hbath").value),
+        Stories: parseInt(document.getElementById("stories").value),
+        Year_Built: parseInt(document.getElementById("year").value),
+        Style: document.getElementById("style").value
+      };
+
+      const response = await fetch("http://127.0.0.1:8000/predict", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+      document.getElementById("result").innerText = "Prediction: " + JSON.stringify(result);
+    });
+  </script>
+</body>
+</html>
