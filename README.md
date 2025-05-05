@@ -37,6 +37,24 @@ The dataset used in this project spans residential property sales data from the 
 
 In the future, the scope of this dataset can be expanded to include additional cities or regions, which would provide more generalizable insights for property price forecasting across diverse geographic areas.
 
+## Livability Factors
+
+| Column Name | Description                                                                      |
+| ----------- | -------------------------------------------------------------------------------- |
+| `TspNum`    | Number of transportation infrastructure points nearby (e.g., bus/train stations) |
+| `TspDst`    | Average distance to nearby transportation infrastructure (in meters)             |
+| `AtrNum`    | Number of tourist attractions near the property (e.g., parks, landmarks)         |
+| `AtrDst`    | Average distance to nearby tourist attractions (in meters)                       |
+| `EdcNum`    | Number of educational institutions near the property (e.g., schools, colleges)   |
+| `EdcDst`    | Average distance to educational institutions (in meters)                         |
+| `HthNum`    | Number of healthcare facilities nearby (e.g., hospitals, clinics)                |
+| `HthDst`    | Average distance to healthcare facilities (in meters)                            |
+| `RstNum`    | Number of restaurants near the property                                          |
+| `RstDst`    | Average distance to nearby restaurants (in meters)                               |
+| `RtlNum`    | Number of retail stores/shops in the surrounding area                            |
+| `RtlDst`    | Average distance to nearby retail locations (in meters)                          |
+
+
 ## Project Workflow
 
 📊 1. Livability Factor Analysis
