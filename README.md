@@ -5,6 +5,9 @@ In today's dynamic real estate market, data-driven insights are essential for ma
 
 This repository is designed for data scientists, real estate analysts, and decision-makers who aim to leverage machine learning models and data science techniques for better property price forecasting.
 
+## Demo
+https://saiveerendranath.github.io/capstone-project/web-inf/dashboard.html
+
 ## Features
 
 - 🔍 Livability Factor Analysis: Identify how location-based amenities like schools, transit, and healthcare impact property prices.
@@ -109,3 +112,5 @@ Key Takeaways
 -	Data-Driven Decision Making: Provides real-time insights for developers, homebuyers, and sellers to align strategies with market trends.
 -	Scalable Approach: Enables the expansion to more cities, offering insights for diverse real estate markets and localized decision-making.
 
+## License
+Copyright (c) 2025 Property Price Prediction, Inc.
