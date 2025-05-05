@@ -65,9 +65,15 @@
 
     #result {
       margin-top: 20px;
-      font-size: 16px;
-      color: #333;
+      padding: 15px;
+      background-color: #e3f2fd;
+      color: #0d47a1;
+      border-left: 6px solid #2196f3;
+      border-radius: 5px;
+      font-size: 1.2em;
+      font-weight: bold;
     }
+
 
     #filters {
       margin-bottom: 15px;
@@ -129,7 +135,17 @@
         <input type="number" id="year" required>
 
         <label>Style:</label>
-        <input type="text" id="style" required>
+        <select id="style" required>
+          <option value="Ranch">Ranch</option>
+          <option value="Colonial">Colonial</option>
+          <option value="Townhouse">Townhouse</option>
+          <option value="Cape Cod">Cape Cod</option>
+          <option value="Cottage">Cottage</option>
+          <option value="Triplex">Triplex</option>
+          <option value="Mansion">Mansion</option>
+          <option value="Other">Other</option>
+        </select>
+
 
         <button type="submit">Predict</button>
       </form>
@@ -193,7 +209,9 @@
       });
 
       const result = await response.json();
-      document.getElementById("result").innerText = "Prediction: " + JSON.stringify(result);
+      const formatted = Number(result.prediction[0]).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      document.getElementById("result").innerText = "Predicted Sale Price: $" + formatted;
+
     });
 
     // Map Setup
