@@ -87,7 +87,7 @@ We extend our gratitude to:
 - Gayathri Galli
 - Pavan Sidhartha Reddymasu
 - Sai Veerendranath Naripireddy.
-Special thanks to Professor Masoud Soroush, a faculty member at the University of Maryland, Baltimore County (UMBC), for his invaluable guidance and mentorship throughout this project.
+- Special thanks to Professor Masoud Soroush, a faculty member at the University of Maryland, Baltimore County (UMBC), for his invaluable guidance and mentorship throughout this project.
 
 ## Conclusion
 The Dynamic Property Price Prediction project demonstrates how incorporating livability factors and machine learning models can improve the accuracy of property price predictions. By understanding both property features and surrounding amenities, this project offers valuable insights for real estate investors, home buyers, sellers, and urban planners.
