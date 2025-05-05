@@ -103,5 +103,4 @@ Key Takeaways
 •	Efficient Resource Allocation: Assists urban planners in guiding infrastructure development and zoning in high-demand areas.
 •	Data-Driven Decision Making: Provides real-time insights for developers, homebuyers, and sellers to align strategies with market trends.
 •	Scalable Approach: Enables the expansion to more cities, offering insights for diverse real estate markets and localized decision-making.
-![image](https://github.com/user-attachments/assets/e30897d9-0ae6-4570-b4c8-66c47a39ad55)
 
