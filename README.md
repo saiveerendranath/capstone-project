@@ -25,6 +25,11 @@ The project is organized into the following folders for easy navigation:
 - README.md: Project overview.
 - app.py: Business Logic for the dashboard
 
+## Dataset Scope and Potential
+The dataset used in this project spans residential property sales data from the city of Milwaukee, including property features like square footage, number of rooms, and sale prices, as well as livability data extracted from OpenStreetMap. The dataset offers a foundation for analyzing the relationship between property features and their prices, while also incorporating livability factors to improve prediction accuracy.
+
+In the future, the scope of this dataset can be expanded to include additional cities or regions, which would provide more generalizable insights for property price forecasting across diverse geographic areas.
+
 ## Project Workflow
 
 📊 1. Livability Factor Analysis
@@ -82,7 +87,8 @@ We extend our gratitude to:
 - Gayathri Galli
 - Pavan Sidhartha Reddymasu
 - Sai Veerendranath Naripireddy.
-- Special thanks to Professor Masoud Soroush, a faculty member at the University of Maryland, Baltimore County (UMBC), for his invaluable guidance and mentorship throughout this project.
+
+Special thanks to Professor Masoud Soroush, a faculty member at the University of Maryland, Baltimore County (UMBC), for his invaluable guidance and mentorship throughout this project.
 
 ## Conclusion
 The Dynamic Property Price Prediction project demonstrates how incorporating livability factors and machine learning models can improve the accuracy of property price predictions. By understanding both property features and surrounding amenities, this project offers valuable insights for real estate investors, home buyers, sellers, and urban planners.
