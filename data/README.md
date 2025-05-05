@@ -16,7 +16,31 @@ The datasets were sourced from authoritative organizations and publicly availabl
     - Description:
        - Provides data on key livability factors (e.g., transportation, schools, healthcare facilities, retail amenities).
        - Includes geographic coordinates (latitude, longitude) for nearby amenities to align with property data.
-         
+
+
+## Data Description
+| Column Name       | Description                                                             | Data Type |
+| ----------------- | ----------------------------------------------------------------------- | --------- |
+| `PropertyID`      | Unique identifier for each property                                     | `int`     |
+| `PropType`        | Type of property (e.g., Residential, Commercial, Manufacturing)         | `object`  |
+| `taxkey`          | Tax key associated with the property                                    | `int64`   |
+| `Address`         | Full address of the property                                            | `object`  |
+| `CondoProject`    | The condominium project name, if applicable                             | `object`  |
+| `District`        | District in which the property is located                               | `int`     |
+| `nbhd`            | Neighborhood code for the property                                      | `int`     |
+| `Style`           | Style or design of the property (e.g., Ranch, Office Building)          | `object`  |
+| `Extwall`         | Exterior wall material of the property                                  | `object`  |
+| `Stories`         | Number of stories in the property                                       | `float`   |
+| `Year_Built`      | Year the property was built                                             | `float`   |
+| `Rooms`           | Total number of rooms in the property                                   | `float`   |
+| `Units`           | Number of units in the property (for multi-unit buildings)              | `int`     |
+| `bdrms`           | Number of bedrooms in the property                                      | `float`   |
+| `Fbath`           | Number of full bathrooms in the property                                | `float`   |
+| `Hbath`           | Number of half bathrooms in the property                                | `float`   |
+| `Sale_Date`       | Date when the property was sold                                         | `object`  |
+| `Sale_Price`      | Sale price of the property                                              | `float`   |  |
+
+  
 ## Data Integration Process
 
 The following flowchart illustrates how the data was merged and processed for analysis:
