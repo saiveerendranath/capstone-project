@@ -63,44 +63,44 @@ In the future, the scope of this dataset can be expanded to include additional c
 
 ## Future Directions
 🌟 Expanding to More Cities:
-•	Objective: Analyze data from other metropolitan regions to understand how livability factors influence property prices in different urban settings.
-•	Why It Matters: Generalizing findings to different geographic regions will enhance the model’s adaptability and improve its predictive accuracy across various locations.
+-	Objective: Analyze data from other metropolitan regions to understand how livability factors influence property prices in different urban settings.
+-	Why It Matters: Generalizing findings to different geographic regions will enhance the model’s adaptability and improve its predictive accuracy across various locations.
 🔗 Inter-Feature Analysis:
-•	Objective: Examine how interactions between different property features (e.g., square footage and district) impact property prices.
-•	Why It Matters: Understanding feature interactions will help refine the model and provide more accurate predictions.
+-	Objective: Examine how interactions between different property features (e.g., square footage and district) impact property prices.
+-	Why It Matters: Understanding feature interactions will help refine the model and provide more accurate predictions.
 🎯 Time-Series Forecasting:
-•	Objective: Implement time-series forecasting techniques to predict future property price trends.
-•	Why It Matters: Providing forecasts for the next few months will help real estate investors and developers make proactive decisions.
+-	Objective: Implement time-series forecasting techniques to predict future property price trends.
+-	Why It Matters: Providing forecasts for the next few months will help real estate investors and developers make proactive decisions.
 💡 Geospatial Analysis:
-•	Objective: Use clustering techniques to group properties by location and livability factors.
-•	Why It Matters: Identify areas with similar property values and amenities, supporting targeted real estate investment strategies.
+-	Objective: Use clustering techniques to group properties by location and livability factors.
+-	Why It Matters: Identify areas with similar property values and amenities, supporting targeted real estate investment strategies.
 
 ## Dashboard
 The project features an interactive dashboard designed to deliver actionable insights into property pricing trends and livability factors. This dashboard provides dynamic visualizations that help stakeholders make informed decisions.
 Key Features
-•	Geographical Mapping: Interactive maps showing property price trends across the city.
-•	Price Predictions: Forecast future property prices using advanced machine learning models.
-•	Feature Importance: Visual representation of the most important predictors of property price.
+-	Geographical Mapping: Interactive maps showing property price trends across the city.
+-	Price Predictions: Forecast future property prices using advanced machine learning models.
+-	Feature Importance: Visual representation of the most important predictors of property price.
 
 ## Acknowledgements
 We extend our gratitude to:
-Gayathri Galli
-Pavan Sidhartha Reddymasu
-Sai Veerendranath Naripireddy
+- Gayathri Galli
+- Pavan Sidhartha Reddymasu
+- Sai Veerendranath Naripireddy.
 Special thanks to Professor Masoud Soroush, a faculty member at the University of Maryland, Baltimore County (UMBC), for his invaluable guidance and mentorship throughout this project.
 
 ## Conclusion
 The Dynamic Property Price Prediction project demonstrates how incorporating livability factors and machine learning models can improve the accuracy of property price predictions. By understanding both property features and surrounding amenities, this project offers valuable insights for real estate investors, home buyers, sellers, and urban planners.
 Key Takeaways
-•	Livability Factor Analysis: Highlighted the significant impact of livability factors, such as proximity to transit, healthcare, and schools, on property prices. This insight allows for more accurate property valuations and investment decisions.
-•	Demand Prediction: Developed robust machine learning models (Random Forest, XGBoost, LightGBM) that identified key predictors of property prices, providing valuable insights for pricing strategies and investment decisions.
-•	Feature Importance: Quantified the importance of various features, such as FinishedSqft, district, and nearby amenities, in predicting property prices. These insights can help prioritize the most impactful factors for property valuation.
-•	Geospatial Insights: Integrated geospatial data, including proximity to amenities using the OpenStreetMap API, to enhance property price predictions. This enables location-based decision-making for real estate investors and urban planners.
+-	Livability Factor Analysis: Highlighted the significant impact of livability factors, such as proximity to transit, healthcare, and schools, on property prices. This insight allows for more accurate property valuations and investment decisions.
+-	Demand Prediction: Developed robust machine learning models (Random Forest, XGBoost, LightGBM) that identified key predictors of property prices, providing valuable insights for pricing strategies and investment decisions.
+-	Feature Importance: Quantified the importance of various features, such as FinishedSqft, district, and nearby amenities, in predicting property prices. These insights can help prioritize the most impactful factors for property valuation.
+-	Geospatial Insights: Integrated geospatial data, including proximity to amenities using the OpenStreetMap API, to enhance property price predictions. This enables location-based decision-making for real estate investors and urban planners.
 
 ## Impact
-•	Optimized Property Investment: Enhances the accuracy of property price predictions, helping investors make informed decisions.
-•	Improved Pricing Strategies: Supports real estate agencies in setting competitive prices, improving sales and profitability.
-•	Efficient Resource Allocation: Assists urban planners in guiding infrastructure development and zoning in high-demand areas.
-•	Data-Driven Decision Making: Provides real-time insights for developers, homebuyers, and sellers to align strategies with market trends.
-•	Scalable Approach: Enables the expansion to more cities, offering insights for diverse real estate markets and localized decision-making.
+-	Optimized Property Investment: Enhances the accuracy of property price predictions, helping investors make informed decisions.
+-	Improved Pricing Strategies: Supports real estate agencies in setting competitive prices, improving sales and profitability.
+-	Efficient Resource Allocation: Assists urban planners in guiding infrastructure development and zoning in high-demand areas.
+-	Data-Driven Decision Making: Provides real-time insights for developers, homebuyers, and sellers to align strategies with market trends.
+-	Scalable Approach: Enables the expansion to more cities, offering insights for diverse real estate markets and localized decision-making.
 
