@@ -18,19 +18,19 @@ https://saiveerendranath.github.io/capstone-project/web-inf/dashboard.html
 
 ## Repository Structure
 
-	data/: Raw and cleaned datasets.
+`Data\`: Raw and cleaned datasets.
 
-	models_py/: Jupyter Notebooks for model preprocessing, training, and evaluation.
+`models_py/`: Jupyter Notebooks for model preprocessing, training, and evaluation.
 
-	web-inf/: Frontend (HTML, JavaScript, CSS) for the dashboard.
+`web-inf/`: Frontend (HTML, JavaScript, CSS) for the dashboard.
 
-	HGBR_Pipeline.pkl: Serialized model for easy deployment.
+`HGBR_Pipeline.pkl`: Serialized model for easy deployment.
 
-	Procfile: Configuration for deployment platforms like Railway or Heroku.
+`Procfile`: Configuration for deployment platforms like Railway or Heroku.
 
-	requirements.txt: List of Python libraries needed for the project.
+`requirements.txt`: List of Python libraries needed for the project.
 
-	app.py: Backend logic for API interactions using FastAPI.
+`app.py`: Backend logic for API interactions using FastAPI.
 
 ## Dataset Scope and Potential
 The dataset used in this project spans residential property sales data from the city of Milwaukee, including property features like square footage, number of rooms, and sale prices, as well as livability data extracted from OpenStreetMap. The dataset offers a foundation for analyzing the relationship between property features and their prices, while also incorporating livability factors to improve prediction accuracy.
@@ -99,12 +99,15 @@ Key Features
 🌟 Expanding to More Cities:
 -	Objective: Analyze data from other metropolitan regions to understand how livability factors influence property prices in different urban settings.
 -	Why It Matters: Generalizing findings to different geographic regions will enhance the model’s adaptability and improve its predictive accuracy across various locations.
+
 🔗 Inter-Feature Analysis:
 -	Objective: Examine how interactions between different property features (e.g., square footage and district) impact property prices.
 -	Why It Matters: Understanding feature interactions will help refine the model and provide more accurate predictions.
+
 🎯 Time-Series Forecasting:
 -	Objective: Implement time-series forecasting techniques to predict future property price trends.
 -	Why It Matters: Providing forecasts for the next few months will help real estate investors and developers make proactive decisions.
+
 💡 Geospatial Analysis:
 -	Objective: Use clustering techniques to group properties by location and livability factors.
 -	Why It Matters: Identify areas with similar property values and amenities, supporting targeted real estate investment strategies.
@@ -113,7 +116,7 @@ Key Features
 We extend our gratitude to:
 - Gayathri Galli
 - Pavan Sidhartha Reddymasu
-- Sai Veerendranath Naripireddy.
+- Sai Veerendranath Naripireddy
 
 Special thanks to **Professor Masoud Soroush**, a faculty member at the University of Maryland, Baltimore County (UMBC), for his invaluable guidance and mentorship throughout this project.
 
